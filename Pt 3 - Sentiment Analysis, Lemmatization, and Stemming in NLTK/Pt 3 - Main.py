@@ -1,7 +1,7 @@
 import nltk
 
-# nltk.download('wordnet')
-# nltk.download('vader_lexicon')
+nltk.download('wordnet')
+nltk.download('vader_lexicon')
 
 from nltk.stem import PorterStemmer, WordNetLemmatizer
 from nltk.sentiment import SentimentIntensityAnalyzer

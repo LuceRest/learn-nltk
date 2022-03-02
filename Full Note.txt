@@ -31,3 +31,9 @@ Pt 3 :
 
 
 
+Pt 4 :
+
+- wordnet.synsets()		~> Berfungsi untuk mendapatkan berbagai sinonim dari suatu kata.
+- wordnet.synsets('<word>')
+
+
