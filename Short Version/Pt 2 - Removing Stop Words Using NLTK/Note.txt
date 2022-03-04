@@ -1,0 +1,2 @@
+- stopwords.words() ~> Berfungsi untuk melakukan stopwords dengan bahasa tertentu.
+- stopwords.words(<bahasa stopword>)

@@ -1,0 +1,2 @@
+- wordnet.synsets()		~> Berfungsi untuk mendapatkan berbagai sinonim dari suatu kata.
+- wordnet.synsets('<word>')
