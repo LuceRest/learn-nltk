@@ -1,0 +1,5 @@
+- Stop Words disebut juga Filtering
+- Filtering → Tahap pemilihan kata-kata penting dari hasil token, yaitu katakata apa saja yang akan digunakan untuk mewakili dokumen
+
+- stopwords.words() ~> Berfungsi untuk mengambil data stopwords dengan bahasa tertentu.
+- stopwords.words(<bahasa stopword>)

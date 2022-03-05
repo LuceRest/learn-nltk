@@ -1,0 +1,22 @@
+Pt 1 :
+
+- Tokenizing → Tahap pemotongan string atau kalimat input berdasarkan tiap kata yang menyusunnya.
+
+- word_tokenize() ~> Berfungsi untuk memisah suatu kalimat menjadi kata-kata (dipisahkan berdasarkan spasi).
+- word_tokenize(<kalimat yg ingin dipisah>)
+
+- sent_tokenize() ~> Berfungsi untuk memisahkan paragraf menjadi kalimat-kalimat (dipisahkan berdasarkan titik dan tanda baca).
+- sent_tokenize(<paragraf yg ingin dipisah>)
+
+
+
+Pt 2 :
+
+- Stop Words disebut juga Filtering
+- Filtering → Tahap pemilihan kata-kata penting dari hasil token, yaitu katakata apa saja yang akan digunakan untuk mewakili dokumen
+
+- stopwords.words() ~> Berfungsi untuk mengambil data stopwords dengan bahasa tertentu.
+- stopwords.words(<bahasa stopword>)
+
+
+

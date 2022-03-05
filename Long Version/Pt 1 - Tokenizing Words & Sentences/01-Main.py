@@ -26,3 +26,18 @@ print(f'word_tokenize : {word_tokenize(example_text)}\n \n----------------------
 for i in word_tokenize(example_text):
     print(i)
 
+
+
+'''
+    NB :
+        - Tokenizing → Tahap pemotongan string atau kalimat input berdasarkan tiap kata yang menyusunnya.
+
+        - word_tokenize() ~> Berfungsi untuk memisah suatu kalimat menjadi kata-kata (dipisahkan berdasarkan spasi).
+        - word_tokenize(<kalimat yg ingin dipisah>)
+
+        - sent_tokenize() ~> Berfungsi untuk memisahkan paragraf menjadi kalimat-kalimat (dipisahkan berdasarkan titik dan tanda baca).
+        - sent_tokenize(<paragraf yg ingin dipisah>)
+
+
+'''
+
