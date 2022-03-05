@@ -1,0 +1,4 @@
+- Stemming → Tahap mencari kata dasar (root) dari setiap kata hasil filtering.
+
+- PorterStemmer().stem() ~> Berfungsi untuk melakukan stemming pada suatu kata.
+- PorterStemmer().stem(<word>)
