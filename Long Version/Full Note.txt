@@ -37,6 +37,8 @@ Pt  4 :
 - Punkt Sentence Tokenizer
     Tokenizer ini membagi teks menjadi daftar kalimat, dengan menggunakan algoritma yang tidak diawasi untuk membangun model kata singkatan, kolokasi, dan kata yang memulai kalimat. Itu harus dilatih pada banyak koleksi plaintext dalam bahasa target sebelum dapat digunakan.
 
+- PoS tagging → Proses memberikan label kelas kata secara otomatis pada setiap kata yang ada pada suatu teks atau dokumen.
+
 - List of Universal POS tags:
     • ADJ : Adjective
     • ADV : Adposition
@@ -95,5 +97,11 @@ Pt  4 :
 
 
 
+Pt 5 :
 
+- Proses chunking dilakukan untuk mendapatkan informasi mengenai struktur kalimat.
+- Chunking              → Proses yang mana ketika informassi memasuki memori, ia dapat dikodekan ulang sehingga konsep-konsep yang terkait dapat dikelompokkan bersama menjadi satu potongan.
+- Chunking ini sering digunakan sebagai teknik menghafal.
+
+- chunk.RegexpParser    → Menggunakan satu set pola ekspresi reguler untuk menentukan perilaku parser.
 

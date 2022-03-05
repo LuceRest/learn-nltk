@@ -14,7 +14,14 @@ def process_content():
         for i in tokenized:
             words = nltk.word_tokenize(i)
             tagged = nltk.pos_tag(words)
-            print(tagged)
+            # print(tagged)
+            
+            chunkGram = r'''Chunk: {<RB.?>*<VB.?>*<NNP>+<NN>?}'''
+
+            chunkParser = nltk.RegexpParser(chunkGram)
+            chunked = chunkParser.parse(tagged)
+
+            chunked.draw()
     
     except Exception as e:
         print(str(e))
@@ -26,14 +33,12 @@ process_content()
 
 '''
     NB :
-        - Tagging
-            Tahap untuk mencari bentuk awal dari tiap kata lampau atau hasil dari stemming yang masih memuat beberapa kata lampau yang dikembalikan ke bentuk awalnya.
-            
-        - Punkt Sentence Tokenizer
-            Tokenizer ini membagi teks menjadi daftar kalimat, dengan menggunakan algoritma yang tidak diawasi untuk membangun model kata singkatan, kolokasi, dan kata yang memulai kalimat. Itu harus dilatih pada banyak koleksi plaintext dalam bahasa target sebelum dapat digunakan.
+        - Proses chunking dilakukan untuk mendapatkan informasi mengenai struktur kalimat.
+        - Chunking              → Proses yang mana ketika informassi memasuki memori, ia dapat dikodekan ulang sehingga konsep-konsep yang terkait dapat dikelompokkan bersama menjadi satu potongan.
+        - Chunking ini sering digunakan sebagai teknik menghafal.
 
-        - PoS tagging → Proses memberikan label kelas kata secara otomatis pada setiap kata yang ada pada suatu teks atau dokumen.
-
+        - chunk.RegexpParser    → Menggunakan satu set pola ekspresi reguler untuk menentukan perilaku parser.
+                
 '''
 
 

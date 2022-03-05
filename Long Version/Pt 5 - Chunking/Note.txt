@@ -1,0 +1,5 @@
+- Proses chunking dilakukan untuk mendapatkan informasi mengenai struktur kalimat.
+- Chunking              → Proses yang mana ketika informassi memasuki memori, ia dapat dikodekan ulang sehingga konsep-konsep yang terkait dapat dikelompokkan bersama menjadi satu potongan.
+- Chunking ini sering digunakan sebagai teknik menghafal.
+
+- chunk.RegexpParser    → Menggunakan satu set pola ekspresi reguler untuk menentukan perilaku parser.

@@ -4,6 +4,8 @@
 - Punkt Sentence Tokenizer
     Tokenizer ini membagi teks menjadi daftar kalimat, dengan menggunakan algoritma yang tidak diawasi untuk membangun model kata singkatan, kolokasi, dan kata yang memulai kalimat. Itu harus dilatih pada banyak koleksi plaintext dalam bahasa target sebelum dapat digunakan.
 
+- PoS tagging → Proses memberikan label kelas kata secara otomatis pada setiap kata yang ada pada suatu teks atau dokumen.
+
 - List of Universal POS tags:
     • ADJ : Adjective
     • ADV : Adposition
