@@ -1,8 +1,0 @@
-- word_tokenize()	        ~> Berfungsi untuk memisah suatu kalimat menjadi kata-kata (dipisahkan berdasarkan spasi).
-- word_tokenize(<kalimat yg ingin dipisah>)
-
-- FreqDist()		        ~> Berfungsi untuk mendapatkan frekuensi distribusi dari berbagai kata atau untuk menghitung berapa banyak kata yg muncul.
-- FreqDist(<list yg berisi berbagai kata>)
-
-- FreqDist().most_common() 	~> Berfungsi untuk mengambil frekuensi kata yg sering muncul yg paling banyak.
-- FreqDist(<list yg berisi berbagai kata>).most_common(<jumlah yg ingin dimunculkan>)
