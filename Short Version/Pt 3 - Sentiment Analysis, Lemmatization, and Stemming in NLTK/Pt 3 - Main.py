@@ -25,7 +25,7 @@ print(f'\nsia : {sia.polarity_scores("This is not good at all")}\n \n-----------
         - PorterStemmer().stem()	                        ~> Berfungsi untuk melakukan stemming pada suatu kata.
         - PorterStemmer().stem(<word>)
 
-        - WordNetLemmatizer().lemmatize()	                ~> Berfungsu untuk melakukan lemmatizer pada suatu kata.
+        - WordNetLemmatizer().lemmatize()	                ~> Berfungsi untuk melakukan lemmatizer pada suatu kata.
         - WordNetLemmatizer().lemmatize(<word>, "<pos>")
 
         - SentimentIntensityAnalyzer().polarity_scores()	~> Berfungsi untuk menampilkan hasil dari sentiment analisis dari suatu kalimat.
