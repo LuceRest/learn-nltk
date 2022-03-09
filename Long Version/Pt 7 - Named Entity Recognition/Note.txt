@@ -1,0 +1,4 @@
+- nltk.chunk.ne_chunk() ~> Berfungsi untuk memberi nama pada entity chunker untuk memotong (chunk) daftar token yang diberi tag.
+- nltk.chunk.ne_chunk(<tagged tokens*>,* binary=False/True)
+    - binary = False    ~> Berfungsi untuk menampilkan nama entity chunker.
+    - binary = True     ~> Berfungsi untuk tidak menampilkan nama entity chunker.
