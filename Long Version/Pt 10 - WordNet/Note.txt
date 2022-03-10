@@ -1,0 +1,3 @@
+- WordNet → Dabatase bahasa yang digunakan untuk mencari synonym set (synset) pada sebuah kata (lemma) yang nantinya akan berelasi dari satu lema dengan lemma lainnya.
+
+- <word 1>.wup_similarity(<word 2>) ~> Berfungsi untuk mengcompare similarity (kesamaan) antara kata 1 dengan kata 2.
