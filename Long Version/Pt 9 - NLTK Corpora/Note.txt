@@ -1,0 +1,4 @@
+- Korpus                → Kumpulan teks autentik, baik tulis maupun transkrip percakapan dalam jumlah besar yang disimpan secara elektronik.
+- Kelebihan korpus adalah mudah untuk diakses dan analisis berbasis korpus bisa dibuat generalisasi secara kuantitatif.
+- Korpus data           → Data yang dipakai sebagai sumber bahan penelitian.
+- Korpus (linguistik)   → Kumpulan ujaran yang tertulis atau lisan yang digunakan untuk menyokong atau menguji hipotesis tentang struktur bahasa.
