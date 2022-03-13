@@ -144,3 +144,13 @@ Pt 10 :
 
 
 
+Pt 11 :
+
+- random.shuffle()              ~> Berfungsi untuk mengacak nilai-nilai pada suatu list.
+- random.shuffle(<list>)
+
+- nltk.FreqDist().most_common() ~> Berfungsi untuk memunculkan nilai yg sering muncul.
+- nltk.FreqDist(<list>).most_common(<banyak nilai yg ingin ditampilkan)
+
+
+
