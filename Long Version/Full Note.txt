@@ -154,3 +154,16 @@ Pt 11 :
 
 
 
+Pt 13 :
+
+- nltk.NaiveBayesClassifier.train() ~> Berfungsi untuk melakukan training pada suatu dataset dengan menggunakan algoritma Naïve Bayes.
+- nltk.NaiveBayesClassifier.train(<training dataset>)
+
+- nltk.classify.accuracy()          ~> Berfungs untuk mendapatkan akurasi dari suatu klasifier dengan mengetes suatu dataset.
+- nltk.classify.accuracy(<classifier>, <testing dataset>)
+
+- show_most_informative_features()  ~> Berfungsi untuk menampilkan fitur paling informatif.
+- show_most_informative_features(<jumlah data yg ingin ditampilkan>)
+
+
+

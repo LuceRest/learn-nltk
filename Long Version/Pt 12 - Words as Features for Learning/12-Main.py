@@ -35,7 +35,7 @@ def find_features(document):
 print((find_features(movie_reviews.words('neg/cv000_29416.txt'))))
 print('------------------------\n')
 
-features = [(find_features(rev), category) for (rev, category) in documents]
+featuressets = [(find_features(rev), category) for (rev, category) in documents]
 
 
     
