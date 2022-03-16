@@ -1,0 +1,13 @@
+- Pickle 			~> Modul yang dapat digunakan untuk menyimpan dan membaca data ke dalam / dari sebuah file (menyimpan objek dengan python).
+
+- open() 			~> Berfungsi untuk membuka suatu file.
+- <nama variabel> = open(”<nama file>.<ekstensi file>”, “wb”)
+    - wb → Write and binary
+
+- pickle.dump()			~> Berfungsi untuk menyimpan (save) objek menjadi file .pickle.
+- pickle.dump(<objek yg ingin disimpan>, <file .pickle>)
+
+- pickle.load() 		~> Berfungsi untuk load objek yg telah disimpan menjadi file .pickle.
+- <nama variabel pickle> = pickle.load(<file .pickle>)
+
+- <nama variabel pickle>.close() ~> Berfungsi untuk menutup file .pickle yg telah digunakan.
