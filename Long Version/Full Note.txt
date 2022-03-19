@@ -191,3 +191,11 @@ Pt 15 :
 - SklearnClassifier(<algoritma classifier>)
 
 
+
+Pt 16 :
+
+- statistics.mode() ~> Berfungsi untuk mengambil suatu data yang muncul paling banyak (modus).
+- statistics.mode(<data>)
+
+
+

@@ -1,0 +1,2 @@
+- statistics.mode() ~> Berfungsi untuk mengambil suatu data yang muncul paling banyak (modus).
+- statistics.mode(<data>)
