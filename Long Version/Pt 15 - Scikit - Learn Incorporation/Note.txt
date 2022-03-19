@@ -1,0 +1,2 @@
+- SklearnClassifier() ~> Berfungsi untuk memanggil suatu algoritma classifier.
+- SklearnClassifier(<algoritma classifier>)

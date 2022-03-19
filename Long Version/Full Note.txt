@@ -184,3 +184,10 @@ Pt 14 :
 - <nama variabel pickle>.close() ~> Berfungsi untuk menutup file .pickle yg telah digunakan.
 
 
+
+Pt 15 :
+
+- SklearnClassifier() ~> Berfungsi untuk memanggil suatu algoritma classifier.
+- SklearnClassifier(<algoritma classifier>)
+
+
