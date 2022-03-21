@@ -36,8 +36,15 @@ class listener(Stream):
 auth = OAuthHandler(ckey, csecret)
 auth.set_access_token(atoken,asecret)
 
-twitterStream = Stream(auth, listener(ckey,csecret,atoken,asecret))
+twitterStream = Stream(auth, listener())
 twitterStream.filter(track=["happy"])
+
+'''
+Traceback (most recent call last):                        io
+  File "d:\Coding\Python\Learn Python\Learn NLTK\Long Vers iion\Pt 20 - Twitter Sentiment Analysis\20-Main.py", line 39, in <module>                                            ke
+    twitterStream = Stream(auth, listener(ckey,csecret,atoken,asecret))                                             nt
+TypeError: __init__() missing 2 required positional arguments: 'access_token' and 'access_token_secret'
+'''
 
 
         
